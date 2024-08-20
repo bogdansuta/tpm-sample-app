@@ -11,4 +11,4 @@ COPY sample /code
 
 WORKDIR /code
 
-ENTRYPOINT ["/code/manage.py", "runserver", "0.0.0.0:8000"]
+ENTRYPOINT ["/entrypoint.sh"]
